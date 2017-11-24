@@ -10,8 +10,7 @@ import {
 	Platform,
 	StyleSheet,
 	TouchableOpacity,
-	View,
-	ViewPropTypes
+	View
 } from 'react-native';
 
 const PREVIEW_OPEN_DELAY = 700;
@@ -361,7 +360,7 @@ SwipeRow.propTypes = {
 	/**
 	 * Styles for the parent wrapper View of the SwipeRow
 	 */
-	style: ViewPropTypes.style,
+	style: View.propTypes.style,
 	/**
 	 * Should the row do a slide out preview to show that it is swipeable
 	 */
